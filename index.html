@@ -8,199 +8,123 @@
     href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;600&display=swap"
     rel="stylesheet" />
   <link href="/css/style.css" rel="stylesheet" />
-  <title>Fylow</title>
+  <title>VeloStop</title>
 </head>
-<body class="max-h-screen dark:bg-darkBlue dark:text-white font-opensans">
+<body class="max-h-screen dark:text-white font-opensans">
 <!-- Global container-->
 
-<!-- Header -->
-<header class="container mx-auto mt-10 px-6 text-center h-40 md:h-20">
-  <!-- Dynamic logo    -->
-  <div class="bg-logo-light-mode dark:bg-logo-dark-mode bg-no-repeat h-20 w-48 mx-auto md:mx-0 md:absolute top-10 left-10"></div>
-  <!-- Menu  -->
-  <div class="flex items-center justify-center space-x-4 md:space-x-10 md:absolute top-12 right-10">
-    <a href="features" class="hover:text-accentCyan">Features</a>
-    <a href="testimonials" class="hover:text-accentCyan">Testimonials</a>
-  </div>
-</header>
+<!--<nav class="w-full fixed top-0 z-50 text-darkBlue">-->
+<!--  <div class="container bg-white">-->
+<!--    <div class="flex flex-row items-center p-5 justify-between">-->
+<!--      <div class="h-12 w-12 bg-no-repeat">-->
+<!--        <img src="images/Logo.png" alt="VeloStop Logo">-->
+<!--      </div>-->
+<!--      <div class="flex flex-row space-x-10">-->
+<!--        <a href="/legal/terms.html">Terms & Conditions</a>-->
+<!--        <a href="/legal/privacy.html">Privacy Policy</a>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--  </div>-->
+<!--</nav>-->
 
 <!--Hero-->
-<section id="hero" class="bg-darkBlue bg-curvy-light-mode dark:bg-curvy-dark-mode bg-no-repeat bg-contain bg-bottom">
+<section id="hero" class="bg-gradient-to-b from-blue-700">
   <!--  // Main container-->
-  <div class="container mx-auto px-6 md:pt-20 pb-52">
+  <div class="container mx-auto flex flex-row items-center justify-center space-x-8 relative">
 
-  <div class="flex flex-col items-center">
-      <img class="mx-auto"  src="/images/illustration-intro.png" alt="">
-
-    <div class="flex flex-col items-center text-white z-10 space-y-8 py-10">
-      <h3 class="text-center text-4xl max-w-lg">All your files in one secure location, accessible anywhere.</h3>
-      <p class="text-center max-w-lg">Fylo stores all your most important files in one secure location. Access them
-        wherever you need, share and collaborate with friends, family, and co-workers</p>
-      <button class="bg-cyan-500 rounded-full px-12 py-4">Get Started</button>
+    <div class="flex md:flex-row flex-col items-center justify-center md:space-x-32">
+      <div class="flex flex-col items-center text-white z-10 space-y-4 mt-10">
+        <div class="h-32 w-32 bg-no-repeat">
+          <img src="images/Logo.png" alt="VeloStop Logo">
+        </div>
+        <h3 class="text-center text-8xl max-w-lg font-bold">VeloStop</h3>
+        <p class="text-center max-w-lg text-3xl">Find bicycle parking in your city</p>
+      </div>
+      <div>
+        <img class="md:h-[50rem] md:min-w-[25rem] h-[30rem] mt-32" src="/images/top_example.png" alt="">
+      </div>
     </div>
-  </div>
   </div>
 
 </section>
 
 
-<section id="logos" class="bg-gray-900/90 py-20">
-  <div class="container mx-auto max-w-6xl px-20 pt-10">
-    <div class="grid grid-cols-2 gap-4">
-      <div class="flex flex-col items-center space-y-4 text-white">
-        <img src="images/icon-any-file.svg" alt="">
-        <h3 class="text-xl font-bold">Access your file from anywhere</h3>
-        <p class="text-center max-w-sm">The ability to use a smartphone, tablet, or computer to access your account
-          means your files follow you everywhere</p>
-      </div>
-      <div class="flex flex-col items-center space-y-4 text-white">
-        <img src="images/icon-access-anywhere.svg" alt="">
-        <h3 class="text-xl font-bold">Access your file from anywhere</h3>
-        <p class="text-center max-w-sm">The ability to use a smartphone, tablet, or computer to access your account
-          means your files follow you everywhere</p>
-      </div>
-      <div class="flex flex-col items-center space-y-4 text-white">
-        <img src="images/icon-collaboration.svg" alt="">
-        <h3 class="text-xl font-bold">Access your file from anywhere</h3>
-        <p class="text-center max-w-sm">The ability to use a smartphone, tablet, or computer to access your account
-          means your files follow you everywhere</p>
-      </div>
-      <div class="flex flex-col items-center space-y-4 text-white">
-        <img src="images/icon-security.svg" alt="">
-        <h3 class="text-xl font-bold">Access your file from anywhere</h3>
-        <p class="text-center max-w-sm">The ability to use a smartphone, tablet, or computer to access your account
-          means your files follow you everywhere</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section id="someOtherLogo" class="bg-gray-900/90 py-20">
+<section id="someOtherLogo" class="bg-white py-20">
 
   <div class="container max-w-6xl mx-auto px-20 pt-10">
 
-    <flex class="flex-row flex space-x-6 items-center">
+    <div class="flex-col flex space-y-16 items-center">
+      <div class="flex flex-col space-y-4 text-darkBlue max-w-md">
+        <h3 class="text-5xl font-bold">Why VeloStop?</h3>
+      </div>
+      <div class="flex flex-row text-darkBlue justify-between space-x-32">
+        <div class="flex flex-col space-y-16">
+          <div class="flex-col space-y-6">
+            <h3 class="text-2xl font-bold">Easy parking</h3>
+            <h3 class="text-xl">Quickly find nearby, secure bike spots.</h3>
+          </div>
+          <div class="flex-co space-y-6">
+            <h3 class="text-2xl font-bold">Reliable info</h3>
+            <h3 class="text-xl">Accurate, up-to-date parking availability.</h3>
+          </div>
+        </div>
+        <div class="flex flex-col space-y-16">
+          <div class="flex-col space-y-6">
+            <h3 class="text-2xl font-bold">Simple design</h3>
+            <h3 class="text-xl">User-friendly and fast to navigate.</h3>
+          </div>
+          <div class="flex-col space-y-6">
+            <h3 class="text-2xl font-bold">Save time</h3>
+            <h3 class="text-xl">Spend less time searching and more time riding!</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section id="appexamples" class="bg-white py-20">
+  <div class="container max-w-6xl mx-auto px-20 pt-10">
+
+    <div class="flex md:flex-row md:space-x-32 space-x-10 justify-center">
       <div>
-        <img src="images/illustration-stay-productive.png" alt="">
+        <img class="md:h-[24rem] md:min-w-[12rem] md:translate-y-10 translate-y-10" src="/images/example1.png" alt="">
       </div>
-      <div class="flex flex-col space-y-4 text-white max-w-md">
-        <h3 class="text-5xl font-bold">Stay productive, wherever you are</h3>
-        <p class="text-xl">Never let location be an issue when accessing your flies. Fylow has you covered for all of
-          your file storage needs</p>
-        <p class="text-xl">Securely share files and folders with friends, family and colleagues for live collaboration.
-          No email attachments required</p>
-        <div class="flex flex-row items-center space-x-2">
-          <a href="" class="hover:text-cyan-300 underline text-cyan-600 underline-offset-4">See how Fylow works</a>
-          <img src="images/icon-arrow.svg" alt="" class="h-4 w-4">
-        </div>
+      <div>
+        <img class="md:h-[36rem] md:min-w-[18rem] md:-translate-y-10" src="/images/example2large.png" alt="">
       </div>
-    </flex>
-  </div>
-</section>
-
-<section id="testimonials" class="bg-gray-900/90 py-10">
-
-  <div class="container max-w-5xl mx-auto pt-10">
-    <div class="flex flex-row space-x-20 items-center justify-between">
-
-      <div class="relative flex flex-col items-start text-white space-y-6 bg-gray-900/50 p-10 rounded-lg">
-        <img class="absolute -top-14 -left-3 scale-150" src="images/bg-quotes.png" alt="">
-        <h4 class="max-w-xs"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. A animi consectetur laboriosam
-          laudantium nam? Exercitationem. </h4>
-        <div class="flex flex-row items-start space-x-2">
-          <img class="rounded-full h-10 w-10" src="images/profile-1.jpg" alt="">
-          <div class="flex flex-col items-start">
-            <h4 class="text-xs font-bold">Satish Patel</h4>
-            <p class="text-xs">Founder & CEO.</p>
-            <p class="text-xs">Huddle</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="flex flex-col items-start text-white space-y-6 bg-gray-900/50 p-10 rounded-lg">
-        <h4 class="max-w-xs"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. A animi consectetur laboriosam
-          laudantium nam? Exercitationem. </h4>
-        <div class="flex flex-row items-start space-x-2">
-          <img class="rounded-full h-10 w-10" src="images/profile-2.jpg" alt="">
-          <div class="flex flex-col items-start">
-            <h4 class="text-xs font-bold">Bruce McKenzie</h4>
-            <p class="text-xs">Founder & CEO.</p>
-            <p class="text-xs">Huddle</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="flex flex-col items-start text-white space-y-6 bg-gray-900/50 p-10 rounded-lg">
-        <h4 class="max-w-xs"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. A animi consectetur laboriosam
-          laudantium nam? Exercitationem. </h4>
-        <div class="flex flex-row items-start space-x-2">
-          <img class="rounded-full h-10 w-10" src="images/profile-3.jpg" alt="">
-          <div class="flex flex-col items-start">
-            <h4 class="text-xs font-bold">Eva Boyd</h4>
-            <p class="text-xs">Founder & CEO.</p>
-            <p class="text-xs">Huddle</p>
-          </div>
-        </div>
+      <div>
+        <img class="md:h-[24rem] md:min-w-[12rem] md:translate-y-10 translate-y-10" src="/images/example3.png" alt="">
       </div>
     </div>
   </div>
 
 </section>
 
-<section id="cta" class="bg-gray-900/90 pt-20">
-  <div class="container max-w-5xl mx-auto pt-10  translate-y-10">
-    <div class="flex flex-col space-y-6 justify-between bg-gray-700 rounded-lg text-white p-10">
-      <h3 class="text-2xl font-bold text-center">Get early access today</h3>
-      <p class="text-center">It only takes a minute to sign up and our free starter tier is extremely generous. If you
-        have any questions, our support team would be happy to help you.</p>
-      <div class="flex flex-row items-center w-full space-x-4">
-        <input class="flex-1 p-4 rounded-full" type="text" placeholder="email@example.com">
-        <button class="p-4 rounded-full bg-cyan-500">Get Started For Free</button>
-      </div>
-    </div>
-  </div>
-</section>
 
-<section id="footer" class="bg-gray-900 p-20">
-  <div class="container max-w-5xl mx-auto pt-10">
-    <div class="flex flex-col items-start">
-      <img src="images/logo-dark-mode.svg" alt="">
+<section id="footer" class="bg-white p-20">
+  <div class="container max-w-5xl mx-auto">
 
-      <div class="flex flex-row items-start justify-around text-white space-x-6 pt-10">
+    <div class="flex flex-col space-y-8 text-darkBlue">
+      <p class="text-lg">Reach out to us at <b>velostop@pm.com</b></p>
 
-        <div class="max-w-sm">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium atque cum error eum id, iure laboriosam
-          nihil nobis officiis optio, pariatur porro praesentium, quibusdam quos repellat temporibus voluptates
-          voluptatibus. Molestiae.
+      <div class="flex flex-row space-x-6 items-center">
+        <div class="h-24 w-24 bg-no-repeat">
+          <img src="images/Logo.png" alt="VeloStop Logo">
         </div>
-
-        <div class="flex flex-col">
-          <div>+1-543-123-4567</div>
-          <div>example@fylow.com</div>
-        </div>
-
-        <div class="flex flex-col">
-          <a href="">About Us</a>
-          <a href="">Jobs</a>
-          <a href="">Press</a>
-          <a href="">Blog</a>
-        </div>
-
-        <div class="flex flex-col">
-          <a href="">Contact Us</a>
-          <a href="">Terms</a>
-          <a href="">Privacy</a>
-        </div>
-
-        <div class="flex flex-row space-x-4 justify-between">
-          <img class="rounded-full border border-white p-2" src="images/facebook.svg" alt="">
-          <img class="rounded-full border border-white p-2" src="images/twitter.svg" alt="">
-          <img class="rounded-full border border-white p-2" src="images/instagram.svg" alt="">
-        </div>
-
+        <div class="text-center text-4xl max-w-lg font-bold">VeloStop</div>
       </div>
 
+      <div class="flex flex-row items-center justify-between">
+        <p class="text-md">2024 VeloStop All Rights Reserved</p>
+        <div class="flex flex-row space-x-10">
+          <a href="/legal/terms.html">Terms & Conditions</a>
+          <a href="/legal/privacy.html">Privacy Policy</a>
+        </div>
+      </div>
     </div>
+
   </div>
 
 </section>
